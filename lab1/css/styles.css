@@ -65,3 +65,84 @@ footer {
     color: #bdbde8;
     background-color: #5b5b6d;
 }
+
+#about-main {
+    display: block;
+    /* Override the flex display for the about page */
+    margin: 0 auto;
+    /* Center the content horizontally */
+}
+
+#table-header {
+    background-color: #173f73;
+    /* Dark blue background for header */
+    color: #FFFFFF;
+    /* White text for header */
+}
+
+.table-row-odd {
+    background-color: #f2f2f2;
+    /* Light gray background for odd rows */
+}
+
+.table-row-even {
+    background-color: #e0e0e0;
+    /* Slightly darker gray background for even rows */
+}
+
+table {
+    border-collapse: collapse;
+    /* Collapse borders into a single border */
+    margin-bottom: 2rem;
+    /* Add some space below the table */
+    width: 75%;
+}
+
+th,
+td {
+    border: 1px solid #dbe4f0;
+    /* Add a border to the table, header cells, and data cells */
+    padding: 0.5rem;
+    /* Add padding to cells for better readability */
+    text-align: left;
+    /* Align text to the left */
+}
+
+li {
+    margin-bottom: 0.5rem;
+    /* Add space between list items */
+    font-size: 1.2rem;
+    /* Increase font size for list items */
+    color: #76a476;
+    background-color: #000000;
+}
+
+h3 {
+    color: #76a476;
+    /* Set color for h3 headings */
+    font-family: "Tangerine", cursive;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    /* Add space above h3 headings */
+    background-color: #000000;
+}
+
+iframe {
+    display: block;
+    width: min(100%, 40rem);
+    min-height: 40rem;
+    margin: 0 auto;
+    border: 1px solid #dbe4f0;
+}
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
