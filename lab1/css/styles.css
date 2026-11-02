@@ -59,7 +59,7 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 5rem;
     flex-wrap: wrap;
     font-size: .5rem;
     color: #bdbde8;
