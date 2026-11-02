@@ -1,0 +1,67 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    /* Set text color to white for contrast */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* Set line height for better readability */
+
+
+}
+
+header,
+nav,
+main,
+footer {
+    text-align: center;
+
+}
+
+nav {
+    background-color: #173f73;
+    /* Set background color for navigation */
+    padding: 1rem;
+    /* Add padding around navigation links */
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #00FF00;
+    text-decoration: none;
+
+    /* Remove underline from links */
+}
+
+nav a:hover {
+    color: #fff;
+    /* Change link color on hover */
+    background-color: #173f73;
+    font-size: 2rem;
+    /* Increase font size on hover */
+    border-bottom: 2px solid orange;
+    /* Add a bottom border on hover */
+}
+
+main {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: center;
+    /* Center content horizontally */
+    gap: 2rem;
+    /* Add space between sections */
+    flex-wrap: wrap;
+    /* Allow sections to wrap on smaller screens */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    font-size: .5rem;
+    color: #bdbde8;
+    background-color: #5b5b6d;
+}
