@@ -135,3 +135,18 @@ li a:hover {
     border-bottom: 2px solid orange;
     /* Add a bottom border on hover */
 }
+
+#overview-main {
+    display: flex;
+    /* Use grid for layout */
+
+    flex-direction: row;
+    /* Define three columns: fixed width for the first, flexible for the others */
+    gap: 2rem;
+    align-items: left;
+    flex-wrap: wrap;
+    /* Align items to the start of the grid */
+    padding: 3rem;
+    color: black;
+
+}
