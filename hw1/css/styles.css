@@ -102,13 +102,7 @@ footer {
     list-style-type: none;
 }
 
-li a {
-    display: block;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 #overview-topics {
     justify-content: left;
@@ -118,13 +112,6 @@ li a {
     color: black;
     text-decoration: none;
     list-style-type: none;
-}
-
-li a {
-    display: block;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    text-decoration: none;
 }
 
 li a:hover {
@@ -145,4 +132,12 @@ li a:hover {
     text-decoration: none;
     color: black;
 
+}
+
+#topic-option {
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
 }
