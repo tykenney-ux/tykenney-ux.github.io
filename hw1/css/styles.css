@@ -75,16 +75,17 @@ footer {
     /* Position the dropdown content absolutely */
     background-color: #212189;
     /* Set background color for the dropdown content */
-    min-width: 32px;
+    min-width: 5rem;
     /* Set minimum width for the dropdown content */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    /* Add a shadow effect to the dropdown content */
-    z-index: 1;
+
     /* Ensure the dropdown content appears above other elements */
     text-decoration: none;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover .dropdown-content a {
     background-color: #212189;
     /* Change background color on hover */
     color: #ffffff;
@@ -109,6 +110,7 @@ footer {
     background-color: #212189;
     /* Set background color for the dropdown */
     color: #ffffff;
+    text-decoration: none;
 }
 
 main {
