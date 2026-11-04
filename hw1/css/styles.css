@@ -50,6 +50,26 @@ article {
     /* Set background color for the article */
 }
 
+main {
+    display: grid;
+    /* Use grid for layout */
+    grid-template-columns: 12rem minmax(0, 1fr) minmax(0, 1fr);
+    /* Define three columns: fixed width for the first, flexible for the others */
+    gap: 2rem;
+    align-items: start;
+    /* Align items to the start of the grid */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    /* Make images responsive */
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -84,21 +104,6 @@ footer {
     color: #ffffff;
     text-decoration: none;
     list-style-type: none;
-}
-
-main {
-    display: flex;
-    /* Use flexbox for layout */
-    justify-content: left;
-    /* Center content horizontally */
-    gap: 2rem;
-    /* Add space between sections */
-    flex-wrap: wrap;
-    /* Allow sections to wrap on smaller screens */
-    background-color: #f0f0f0;
-    /* Set background color for the main content */
-    color: #000000;
-    /* Set text color for the main content */
 }
 
 li a {
