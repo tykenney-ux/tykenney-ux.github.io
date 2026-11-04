@@ -44,8 +44,6 @@ article {
     /* Right-align content horizontally */
     padding: 1rem;
     /* Add padding around the article */
-    gap: 2rem;
-    /* Add space between sections */
     flex-wrap: wrap;
     /* Allow sections to wrap on smaller screens */
     background-color: #f0f0f0;
@@ -55,7 +53,7 @@ article {
 footer {
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 3rem;
     gap: 2rem;
     flex-wrap: wrap;
     font-size: .75rem;
@@ -70,6 +68,17 @@ footer {
     /* Underline the current page link */
 }
 
+.dropdown a {
+    color: #ffffff;
+    /* Set text color for dropdown links */
+    text-decoration: none;
+    /* Remove underline from dropdown links */
+    display: block;
+    /* Display dropdown links as block elements */
+    padding: 0.5rem 1rem;
+    /* Add padding around dropdown links */
+}
+
 .dropdown-content a {
     position: absolute;
     /* Position the dropdown content absolutely */
@@ -80,9 +89,10 @@ footer {
 
     /* Ensure the dropdown content appears above other elements */
     text-decoration: none;
-    padding: 1rem;
+    padding: 5rem;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    color: #ffffff;
 }
 
 .dropdown-content a:hover .dropdown-content a {
