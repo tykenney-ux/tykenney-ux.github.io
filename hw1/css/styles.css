@@ -6,6 +6,15 @@ nav {
 
 }
 
+h1 {
+    text-align: center;
+    /* Center the heading */
+    font-size: 3rem;
+    /* Set font size for the heading */
+    color: #212189;
+    /* Set text color for the heading */
+}
+
 nav a {
     display: inline-block;
     padding: 1rem;
@@ -48,7 +57,7 @@ footer {
     padding: 5rem;
     gap: 5rem;
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: .75rem;
     color: #ffffff;
     background-color: #212189;
 }
@@ -61,8 +70,6 @@ footer {
 }
 
 .dropdown-content a {
-    display: none;
-    /* Hide the dropdown content by default */
     position: absolute;
     /* Position the dropdown content absolutely */
     background-color: #f9f9f9;
@@ -75,31 +82,27 @@ footer {
     /* Ensure the dropdown content appears above other elements */
 }
 
-.dropdown:hover .dropdown-content a {
-    display: block;
-    /* Show the dropdown content on hover */
+.dropdown {
+    position: relative;
+    /* Position the dropdown relative to its parent */
+    display: inline-block;
+    /* Display the dropdown as an inline block */
+    background-color: #212189;
+    /* Set background color for the dropdown */
+    color: #ffffff;
 }
 
 main {
     display: flex;
     /* Use flexbox for layout */
-    justify-content: center;
+    justify-content: left;
     /* Center content horizontally */
     gap: 2rem;
     /* Add space between sections */
     flex-wrap: wrap;
     /* Allow sections to wrap on smaller screens */
-}
-
-article {
-    display: flex;
-    /* Use flexbox for layout */
-    margin-left: 2rem;
-    /* Add left margin to the article */
-    justify-content: center;
-    /* Center content horizontally */
-    gap: 2rem;
-    /* Add space between sections */
-    flex-wrap: wrap;
-    /* Allow sections to wrap on smaller screens */
+    background-color: #f0f0f0;
+    /* Set background color for the main content */
+    color: #000000;
+    /* Set text color for the main content */
 }
