@@ -78,10 +78,11 @@ footer {
 
 }
 
-.dropdown>a .dropdown-content a {
-    position: relative;
+.dropdown>a,
+.dropdown-content a {
+    /* position: relative; */
     display: block;
-    padding: 5rem;
+    padding: 1rem;
     color: #ffffff;
     text-decoration: none;
     /* Position the dropdown content absolutely */
