@@ -75,12 +75,13 @@ footer {
     /* Display the dropdown as an inline block */
     background-color: #212189;
     /* Set background color for the dropdown */
+
 }
 
 .dropdown>a .dropdown-content a {
     position: relative;
     display: block;
-    padding: 1rem;
+    padding: 5rem;
     color: #ffffff;
     text-decoration: none;
     /* Position the dropdown content absolutely */
@@ -95,7 +96,7 @@ footer {
 .dropdown-content {
     display: none;
     /* Hide the dropdown content by default */
-    position: absolute;
+    position: relative;
     /* Position the dropdown content absolutely */
     background-color: #212189;
     /* Set background color for the dropdown content */
@@ -112,7 +113,7 @@ footer {
     /* Set text color for visited links */
 }
 
-.dopdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
     /* Show the dropdown content on hover */
 }
