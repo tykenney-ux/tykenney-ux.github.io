@@ -40,6 +40,7 @@ article {
     display: flex;
     /* Use flexbox for layout */
     justify-content: right;
+    flex-direction: column;
     /* Right-align content horizontally */
     padding: 1rem;
     /* Add padding around the article */
@@ -55,7 +56,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 5rem;
-    gap: 5rem;
+    gap: 2rem;
     flex-wrap: wrap;
     font-size: .75rem;
     color: #ffffff;
@@ -72,7 +73,7 @@ footer {
 .dropdown-content a {
     position: absolute;
     /* Position the dropdown content absolutely */
-    background-color: #f9f9f9;
+    background-color: #212189;
     /* Set background color for the dropdown content */
     min-width: 32px;
     /* Set minimum width for the dropdown content */
@@ -80,6 +81,24 @@ footer {
     /* Add a shadow effect to the dropdown content */
     z-index: 1;
     /* Ensure the dropdown content appears above other elements */
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #212189;
+    /* Change background color on hover */
+    color: #ffffff;
+    /* Change text color on hover */
+}
+
+.dropdown-content a:visited {
+    color: skyblue;
+    /* Set text color for visited links */
+}
+
+.dropdown-content a:active {
+    color: goldenrod;
+    /* Set text color for active links */
 }
 
 .dropdown {
