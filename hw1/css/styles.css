@@ -37,16 +37,11 @@ nav a:hover {
 }
 
 article {
-    display: flex;
-    /* Use flexbox for layout */
+
     justify-content: right;
-    flex-direction: column;
-    /* Right-align content horizontally */
-    padding: 1rem;
-    /* Add padding around the article */
-    flex-wrap: wrap;
-    /* Allow sections to wrap on smaller screens */
-    background-color: #f0f0f0;
+
+    padding: .5rem;
+    background-color: #ffffff;
     /* Set background color for the article */
 }
 
@@ -99,6 +94,7 @@ footer {
 }
 
 .menu-content {
+    justify-content: left;
     padding: 1rem;
     font-size: 1.5rem;
     color: #ffffff;
