@@ -147,4 +147,6 @@ li a:hover {
     flex-wrap: wrap;
     /* Align items to the start of the grid */
     padding: 3rem;
+    color: black;
+
 }
