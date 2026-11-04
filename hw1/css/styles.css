@@ -68,58 +68,15 @@ footer {
     /* Underline the current page link */
 }
 
-.dropdown {
-    position: relative;
-    /* Position the dropdown relative to its parent */
-    display: inline-block;
-    /* Display the dropdown as an inline block */
+#menu-topics {
+
+    justify-content: left;
+    padding: 3rem;
+    gap: 2rem;
+    list-style: none;
     background-color: #212189;
-    /* Set background color for the dropdown */
-
-}
-
-.dropdown>a,
-.dropdown-content a {
-    /* position: relative; */
-    display: block;
-    padding: 1rem;
     color: #ffffff;
-    text-decoration: none;
-    /* Position the dropdown content absolutely */
-    /* background-color: #212189;
-    /* Set background color for the dropdown content */
-    /* min-width: 5rem; */
-    /* Set minimum width for the dropdown content */
-
-    /* Ensure the dropdown content appears above other elements */
 }
-
-.dropdown-content {
-    display: none;
-    /* Hide the dropdown content by default */
-    position: relative;
-    /* Position the dropdown content absolutely */
-    background-color: #212189;
-    /* Set background color for the dropdown content */
-    min-width: 8rem;
-    left: 0;
-    top: 100%;
-    /* Set minimum width for the dropdown content */
-    z-index: 1;
-    /* Ensure the dropdown content appears above other elements */
-}
-
-.dropdown-content a:hover {
-    color: #333399;
-    /* Set text color for visited links */
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    /* Show the dropdown content on hover */
-}
-
-
 
 main {
     display: flex;
