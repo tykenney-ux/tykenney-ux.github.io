@@ -1,0 +1,105 @@
+nav {
+    background-color: #212189;
+    /* Set background color for navigation */
+    padding: 1rem;
+    /* Add padding around navigation links */
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+
+    /* Remove underline from links */
+}
+
+nav a:hover {
+    color: #fff;
+    /* Change link color on hover */
+    background-color: #212189;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+    /* Increase font size on hover */
+    border-bottom: 2px solid orange;
+    /* Add a bottom border on hover */
+}
+
+article {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: right;
+    /* Right-align content horizontally */
+    padding: 1rem;
+    /* Add padding around the article */
+    gap: 2rem;
+    /* Add space between sections */
+    flex-wrap: wrap;
+    /* Allow sections to wrap on smaller screens */
+    background-color: #f0f0f0;
+    /* Set background color for the article */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #212189;
+}
+
+#current-page {
+    font-weight: bold;
+    /* Make the current page link bold */
+    text-decoration: underline;
+    /* Underline the current page link */
+}
+
+.dropdown-content a {
+    display: none;
+    /* Hide the dropdown content by default */
+    position: absolute;
+    /* Position the dropdown content absolutely */
+    background-color: #f9f9f9;
+    /* Set background color for the dropdown content */
+    min-width: 32px;
+    /* Set minimum width for the dropdown content */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* Add a shadow effect to the dropdown content */
+    z-index: 1;
+    /* Ensure the dropdown content appears above other elements */
+}
+
+.dropdown:hover .dropdown-content a {
+    display: block;
+    /* Show the dropdown content on hover */
+}
+
+main {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: center;
+    /* Center content horizontally */
+    gap: 2rem;
+    /* Add space between sections */
+    flex-wrap: wrap;
+    /* Allow sections to wrap on smaller screens */
+}
+
+article {
+    display: flex;
+    /* Use flexbox for layout */
+    margin-left: 2rem;
+    /* Add left margin to the article */
+    justify-content: center;
+    /* Center content horizontally */
+    gap: 2rem;
+    /* Add space between sections */
+    flex-wrap: wrap;
+    /* Allow sections to wrap on smaller screens */
+}
