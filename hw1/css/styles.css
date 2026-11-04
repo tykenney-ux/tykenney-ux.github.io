@@ -100,3 +100,11 @@ main {
     color: #000000;
     /* Set text color for the main content */
 }
+
+li a {
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
