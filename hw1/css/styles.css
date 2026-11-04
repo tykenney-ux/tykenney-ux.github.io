@@ -73,9 +73,17 @@ footer {
     justify-content: left;
     padding: 3rem;
     gap: 2rem;
-    list-style: none;
+    list-style-type: none;
     background-color: #212189;
     color: #ffffff;
+}
+
+.menu-content {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 main {
