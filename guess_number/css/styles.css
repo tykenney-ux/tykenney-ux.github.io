@@ -4,6 +4,10 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+    min-height: 100dvh;
+    margin: 0;
 
 }
 
@@ -62,8 +66,37 @@ footer {
     justify-content: center;
     padding: 5rem;
     gap: 5rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-size: 1rem;
     color: #ffffff;
     background-color: black;
+}
+
+#misc {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    background-color: rgba(70, 70, 71, 0.5);
+    color: white;
+    font-size: 1rem;
+    padding: auto;
+}
+
+#misc-left {
+    /* background-color: rgba(70, 70, 71, 0.5); */
+    color: white;
+    font-size: .75rem;
+    text-align: left;
+
+}
+
+#misc-right {
+    /* background-color: rgba(70, 70, 71, 0.5); */
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+}
+
+a {
+    color: white;
 }
