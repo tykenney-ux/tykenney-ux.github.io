@@ -2,7 +2,7 @@
 //global variables
 let attempts = 0;
 const MAX_ATTEMPTS = 7;
-const DEBUG = true;
+const DEBUG = false;
 let randomNumber;
 let totalGames = 0;
 let totalWins = 0;
