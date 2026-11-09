@@ -70,6 +70,7 @@ function checkGuess() {
         feedback.textContent = "Congratulations! You guessed the number in " + attempts + " attempts!" + "\nTotal games played: " + totalGames + ", Total wins: " + totalWins + ".";
         feedback.style.color = "#16f529";
         document.querySelector("#misc-right").textContent = "Games Played: " + totalGames + "; Games Won: " + totalWins;
+        return;
 
 
     }
