@@ -12,14 +12,16 @@
     <h1 class="p-5 bg-info">US Geography Quiz</h1>
     <!-- <h1>US Geography Quiz</h1> -->
 
+    <!--Question 1-->
     <!-- <h3>What is the capital of California?</h3> -->
-    <h3><span id="markImg1"></span>What is the capital of California?</h3>
+    <h3><span id="markImg1"></span>1. What is the capital of California?</h3>
     <input type="text" id="q1">
     <br><br>
     <div id="q1Feedback"></div>
     <br><br>
 
-    <h3><span id="markImg2"></span>What is the longest river?</h3>
+    <!--Question 2-->
+    <h3><span id="markImg2"></span>2. What is the longest river?</h3>
     <select id="q2">
         <option value="">Select One</option>
         <option value="ms">Mississippi</option>
@@ -31,22 +33,74 @@
     <div id="q2Feedback"></div>
     <br><br>
 
-    <h3><span id="markImg3"></span>What presidents are carved into Mount Rushmore?</h3>
-    <input type="checkbox" id="Jackson"> <label for="Jackson">A. Jackson</label>
+    <!--Question 3-->
+    <h3><span id="markImg3"></span>3. What presidents are carved into Mount Rushmore?</h3>
+    <div id="q3Choices"></div>
+    <!-- <input type="checkbox" id="Jackson"> <label for="Jackson">A. Jackson</label>
     <input type="checkbox" id="Franklin"> <label for="Franklin">B. Franklin</label>
     <input type="checkbox" id="Jefferson"> <label for="Jefferson">T. Jefferson</label>
-    <input type="checkbox" id="Roosevelt"> <label for="Roosevelt">T. Roosevelt</label>
+    <input type="checkbox" id="Roosevelt"> <label for="Roosevelt">T. Roosevelt</label> -->
     <br><br>
     <div id="q3Feedback"></div>
     <br><br>
 
-    <h3><span id="markImg4"></span>What is the smallest US State?</h3>
+    <!--Question 4-->
+    <h3><span id="markImg4"></span>4. What is the smallest US State?</h3>
     <div id="q4Choices"></div>
     <br><br>
     <div id="q4Feedback"></div>
     <br><br>
 
+    <!--Question 5-->
+    <h3><span id="markImg5"></span>5. Which states border California? Select all that apply.</h3>
+    <div id="q5Choices"></div>
+    <br><br>
+    <div id="q5Feedback"></div>
+    <br><br>
 
+    <!--Question 6-->
+    <h3><span id="markImg6"></span>6. Which states are part of New England? Select all that apply.</h3>
+    <div id="q6Choices"></div>
+    <br><br>
+    <div id="q6Feedback"></div>
+    <br><br>
+
+    <!--Question 7-->
+    <h3><span id="markImg7"></span>7. What is the capital of the United States?</h3>
+    <div id="q7Choices"></div>
+    <br><br>
+    <div id="q7Feedback"></div>
+    <br><br>
+
+    <!--Question 8-->
+    <h3><span id="markImg8"></span>8. Which state is the largest by area?</h3>
+    <div id="q8Choices"></div>
+    <br><br>
+    <div id="q8Feedback"></div>
+    <br><br>
+
+    <!--Question 9-->
+    <h3><span id="markImg9"></span>9. Which state is known as the “Sunshine State”?</h3>
+    <select id="q9">
+        <option value="">Select One</option>
+        <option value="ca">California</option>
+        <option value="tx">Texas</option>
+        <option value="nv">Nevada</option>
+        <option value="fl">Florida</option>
+        <option value="hi">Hawaii</option>
+    </select>
+    <br><br>
+    <div id="q9Feedback"></div>
+    <br><br>
+
+    <!--Question 10-->
+    <h3><span id="markImg10"></span>10. Name the state located directly north of Texas.</h3>
+    <input type="text" id="q10">
+    <br><br>
+    <div id="q10Feedback"></div>
+    <br><br>
+
+    <!--end of quiz. Time to submit-->
     <h3 id="validationFdbk" class="bg-danger text-white"></h3>
     <button class=" btn btn-outline-primary">Submit Quiz</button>
     <!-- <button>Submit Quiz</button> -->
@@ -57,7 +111,9 @@
     <script src="js/script.js" defer></script>
     <br>
 
-    <hr>
+
+
+    <hr class="border border-primary border-2 opacity-75">
     <footer>
         <!--The footer will be added here -->
         <img src="img/csumb-logo.png" alt="CSUMB Logo">
@@ -68,6 +124,8 @@
             <!--Display CSUMB logo -->
             <!-- <p> Background Image <a href="https://share.google/xUMlwY7tOjyvR8HsI" target="_blank"> Source</a></p> -->
         </div>
+        <br>
+        <span id='sources' class="link-dark fw-bold "><a href="sources.html" target="_blank">sources</a></span>
     </footer>
 </body>
 
