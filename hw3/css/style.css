@@ -1,0 +1,37 @@
+header {
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+#form-row {
+    display: grid;
+    grid-template-columns: 12rem minmax(0, 1fr) minmax(0, 1fr);
+    /* Define three columns: fixed width for the first, flexible for the others */
+    gap: 2rem;
+    align-items: start;
+    max-width: 75%;
+}
+
+#page-container {
+    min-height: 69vh;
+}
+
+#img_placement img {
+    max-width: 150px;
+    height: auto;
+}
+
+#main-form {
+    font-size: 2rem;
+}
+
+#main-img {
+    padding: auto;
+    border-width: 1px;
+    border-color: aqua;
+}
+
+#sources {
+    text-align: end;
+    padding-right: 1rem;
+}
