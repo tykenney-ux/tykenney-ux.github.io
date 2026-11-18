@@ -1,4 +1,4 @@
-const openWeatherAPI_key = "YOUR_KEY_HERE"
+const openWeatherAPI_key = "YOUR_KEY_HERE" //need to fix
 document.querySelector("#zip").addEventListener("change", validateInput);
 document.querySelector("#zip_loading").style.display = "none";
 let DEBUG = false;
